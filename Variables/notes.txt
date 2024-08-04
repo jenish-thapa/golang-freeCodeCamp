@@ -57,3 +57,22 @@ fmt.Sprintf - returns a formatted string
 %s - string
 %d - decimal
 %f - float      // can be used as %.2f to round off numbers
+----------------------------------------------------------------------
+
+CONDITIONALS
+
+if 1 > 2 {
+    fmt.Println("1 is greater than 2")
+} else {
+    fmt.Println("1 is smaller than 2")
+}
+----------------------------------------------------------------------
+
+INITIAL STATEMENT IN IF BLOCK
+
+if length := 2; length == 2 {
+    fmt.Println("Length is equal to 2")
+}
+
+pros: saves an extra line of code
+      doesn't pollute the parent scope

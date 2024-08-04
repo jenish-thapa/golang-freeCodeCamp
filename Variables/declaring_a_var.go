@@ -45,4 +45,16 @@ func main() {
 
 	msg := fmt.Sprintf("Hi %s, your open rate is %.2f percent", name, openRate,)
 	fmt.Println(msg)
+
+	// conditionals
+	if 1 > 2 {
+		fmt.Println("1 is greater than 2")
+	} else {
+		fmt.Println("1 is smaller than 2")
+	}
+
+	// initial statement in if block
+	if length := 2; length == 2 {
+		fmt.Println("Length is equal to 2")
+	}
 }
