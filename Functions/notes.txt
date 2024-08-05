@@ -1,0 +1,32 @@
+FUNC DECLARATION
+
+func concat(s1 string, s2 string) string {
+	return s1 + s2
+}
+----------------------------------------------------------------------
+
+FUNC DECLARATION SHORTCUT
+
+func add(x, y int) int {
+	return x + y
+}
+----------------------------------------------------------------------
+
+EXPLICIT RETURN IN FUNCS
+
+func getPoint() (int, int) {
+	return 3, 4
+}
+----------------------------------------------------------------------
+
+IMPLICIT RETURN IN FUNCS
+
+// specifying names to return vars will automatically declare and initialize them
+func getCoords() (x, y int) {
+	return
+}
+----------------------------------------------------------------------
+
+IGNORING RETURN VALS
+
+Use "_" to ignore unwanted vals during return
