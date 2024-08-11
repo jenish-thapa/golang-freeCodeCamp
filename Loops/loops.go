@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-	// for loop 
+	// for loop
 	for i := 0; i < 10; i++ {
 		fmt.Println(i)
 	}
@@ -20,11 +20,11 @@ func main() {
 
 	// fizzbuzz
 	for i := 1; i <= 100; i++ {
-		if i % 15 == 0 {
+		if i%15 == 0 {
 			fmt.Println("fizzbuzz")
-		} else if i % 5 == 0 {
+		} else if i%5 == 0 {
 			fmt.Println("buzz")
-		} else if i % 3 == 0 {
+		} else if i%3 == 0 {
 			fmt.Println("fizz")
 		} else {
 			fmt.Println(i)
@@ -40,12 +40,12 @@ func printPrimes(max int) {
 			fmt.Println(i)
 			continue
 		}
-		if i % 2 == 0 {
+		if i%2 == 0 {
 			continue
 		}
 		isPrime := true
-		for j := 3; j * j < i + 1; j++ {
-			if i % j == 0 {
+		for j := 3; j*j < i+1; j++ {
+			if i%j == 0 {
 				isPrime = false
 				break
 			}
